@@ -1,0 +1,17 @@
+/* body {
+  background-color: bisque;
+} */
+
+.container {
+  background-color: rgb(228, 241, 237);
+  width: 50vw;
+  margin: 0 auto;
+  padding: 10px;
+  border: solid rgb(15, 207, 207) 5px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.forms-container input {
+  display: block;
+}

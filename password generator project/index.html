@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="onclick" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-1">
+        <h1>password generator</h1>
+        <input type="password" name="password" id="password-area" />
+        <input type="button" value="Generate" id="generate-btn" />
+      </div>
+      <div class="form-section">
+        <form action="" class="forms-container" idforms>
+          <label for="number">password length</label>
+          <input
+            type="number"
+            name="number"
+            id="passwordLength"
+            min="4"
+            max="16"
+            value="4"
+          />
+          <label for="lowercase"> Include lowercase</label>
+          <input type="checkbox" name="lowercase" id="lowerCase" checked />
+          <label for="uppercase">Include uppercase</label>
+          <input type="checkbox" name="uppercase" id="upperCase" checked />
+          <label for="numbers">Include Numbers</label>
+          <input type="checkbox" name="numbers" id="numbers-1" checked />
+          <label for="symbols">Include symbols</label>
+          <input type="checkbox" name="symbols" id="symbols-1" />
+          <label for="amharic">Include Amharic</label>
+          <input type="checkbox" name="amharic" id="amarigna" />
+        </form>
+      </div>
+    </div>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
