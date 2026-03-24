@@ -3,7 +3,7 @@ Password Generator (JavaScript)
 A simple and fast password generator built using JavaScript. This project allows users to create strong, random passwords based on selected criteria such as length and character types.
 
 🚀 Features
-Generate secure random passwords
+Generate random passwords
 Customize password length
 Include/exclude:
 Uppercase letters
